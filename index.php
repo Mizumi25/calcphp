@@ -214,25 +214,5 @@
         </div>
 
 
-
-
-
-<script>
-  const button = document.getElementById('toggleButton');
-
-  let isClicked = false;
-
-  function handleClick() {
-    if (isClicked) {
-      console.log('Button clicked again');
-    } else {
-      console.log('Button clicked');
-    
-    }
-    isClicked = !isClicked;
-  }
-  
-</script>
-
 </body>
 </html>
